@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/notebooklm-mcp",
+  "title": "NotebookLM",
+  "description": "Google NotebookLM via natural language: create notebooks, add sources (PDF, URL, YouTube) and ask gr",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/notebooklm-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_notebooklm"
+    }
+  ]
+}
